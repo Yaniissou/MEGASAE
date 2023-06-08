@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #8c9296;">
+         <children>
+            <Label text="Paiement en cours">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Suivez les instructions sur le lecteur..." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="38.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="80.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+      </VBox>
+   </children>
+</VBox>
