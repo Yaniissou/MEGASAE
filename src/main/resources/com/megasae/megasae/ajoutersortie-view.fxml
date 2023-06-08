@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox alignment="CENTER_RIGHT" prefHeight="57.0" prefWidth="600.0">
+            <children>
+                <Label text="Ajouter sortie">
+                    <HBox.margin>
+                        <Insets right="130.0" />
+                    </HBox.margin></Label>
+                <Button mnemonicParsing="false" text="Deconnexion">
+                    <HBox.margin>
+                        <Insets right="20.0" />
+                    </HBox.margin></Button>
+            </children>
+        </HBox>
+        <HBox prefHeight="20.0" prefWidth="600.0">
+            <children>
+                <Hyperlink text="Accueil" />
+                <Label prefHeight="28.0" prefWidth="11.0" text="&gt;" />
+                <Hyperlink text="Mes sorties" />
+                <Label prefHeight="22.0" prefWidth="9.0" text="&gt;" />
+                <Hyperlink text="Ajouter sortie" />
+            </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+        </HBox>
+        <GridPane prefHeight="246.0" prefWidth="360.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="94.0" minHeight="10.0" prefHeight="78.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="94.0" minHeight="10.0" prefHeight="78.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="94.0" minHeight="10.0" prefHeight="78.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="94.0" minHeight="10.0" prefHeight="78.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="111.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <VBox.margin>
+                <Insets left="120.0" right="120.0" top="20.0" />
+            </VBox.margin>
+            <children>
+                <Label text="Date" />
+                <Label text="Type de sortie" GridPane.rowIndex="1" />
+                <Label text="Niveau" GridPane.rowIndex="2" />
+                <Label text="Description" GridPane.rowIndex="4" />
+                <ImageView fitHeight="43.0" fitWidth="159.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                    <GridPane.margin>
+                        <Insets left="10.0" />
+                    </GridPane.margin>
+                </ImageView>
+                <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <TextArea prefHeight="81.0" prefWidth="187.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label text="Moniteur" GridPane.rowIndex="3" />
+            <TextField GridPane.columnIndex="1" />
+            <ComboBox editable="true" prefHeight="24.0" prefWidth="198.0" promptText="Rechercher nom" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            </children>
+        </GridPane>
+        <HBox alignment="CENTER" prefHeight="62.0" prefWidth="600.0">
+            <children>
+                <Button mnemonicParsing="false" text="Ajouter sortie" />
+            </children>
+        </HBox>
+    </children>
+</VBox>
