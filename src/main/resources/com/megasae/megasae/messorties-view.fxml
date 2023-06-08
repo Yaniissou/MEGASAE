@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_RIGHT" prefHeight="57.0" prefWidth="600.0">
+         <children>
+            <Label text="Mes sorties">
+               <HBox.margin>
+                  <Insets right="150.0" />
+               </HBox.margin></Label>
+            <Button mnemonicParsing="false" text="Deconnexion">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin></Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="20.0" prefWidth="600.0">
+         <children>
+            <Hyperlink text="Accueil" />
+            <Label prefHeight="28.0" prefWidth="11.0" text="&gt;" />
+            <Hyperlink text="Mes sorties" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="9.0" prefWidth="600.0">
+         <children>
+            <ComboBox prefWidth="150.0" promptText="Type sortie">
+               <HBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </HBox.margin>
+            </ComboBox>
+            <ComboBox prefWidth="150.0" promptText="Niveau du skieur">
+               <HBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </HBox.margin>
+            </ComboBox>
+            <ComboBox prefWidth="150.0" promptText="Selection date">
+               <HBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="28.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="24.0" prefWidth="193.0" text="Rechercher" />
+         </children>
+      </HBox>
+      <HBox prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="24.0" prefWidth="133.0" text="Ajouter sortie">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="40.0" right="15.0" top="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="104.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="40.0" right="15.0" />
+               </HBox.margin>
+               <effect>
+                  <Shadow />
+               </effect>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" prefHeight="104.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Label text="Niveau" />
+                  <Label text="Type sortie" />
+                  <Label text="Date" />
+               </children>
+            </VBox>
+            <VBox prefHeight="104.0" prefWidth="193.0">
+               <children>
+                  <Label text="Moniteur : Cécile">
+                     <padding>
+                        <Insets bottom="15.0" top="15.0" />
+                     </padding></Label>
+                  <Label text="Description annonce : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque imperdiet quam, quis iaculis lacus sagittis sed. Praesent nec nibh eget tellus elementum hendrerit." />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="104.0" prefWidth="124.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="24.0" prefWidth="128.0" text="Supprimer sortie" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="104.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Shadow />
+               </effect>
+               <HBox.margin>
+                  <Insets left="40.0" right="15.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" prefHeight="104.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Label text="Niveau" />
+                  <Label text="Type sortie" />
+                  <Label text="Date" />
+               </children>
+            </VBox>
+            <VBox prefHeight="104.0" prefWidth="193.0">
+               <children>
+                  <Label text="Moniteur : Fred">
+                     <padding>
+                        <Insets bottom="15.0" top="15.0" />
+                     </padding>
+                  </Label>
+                  <Label text="Description annonce : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque imperdiet quam, quis iaculis lacus sagittis sed. Praesent nec nibh eget tellus elementum hendrerit." />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="104.0" prefWidth="124.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="24.0" prefWidth="128.0" text="Supprimer sortie" />
+               </children>
+            </VBox>
+         </children></HBox>
+   </children>
+</VBox>
