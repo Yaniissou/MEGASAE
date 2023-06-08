@@ -27,6 +27,9 @@
             <Label prefHeight="22.0" prefWidth="9.0" text="&gt;" />
             <Hyperlink text="Ajouter moniteur" />
          </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
         </HBox>
       <GridPane prefHeight="246.0" prefWidth="360.0">
         <columnConstraints>

@@ -26,6 +26,9 @@
             <Label prefHeight="34.0" prefWidth="11.0" text="&gt;" />
             <Hyperlink text="Mes moniteurs" />
          </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
         </HBox>
         <HBox alignment="CENTER" prefHeight="9.0" prefWidth="600.0">
          <children>
