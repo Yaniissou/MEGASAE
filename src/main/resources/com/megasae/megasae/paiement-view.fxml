@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #8c9296;">
+         <children>
+            <Label text="Paiement">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="27.0" prefWidth="600.0">
+         <children>
+            <Hyperlink text="Accueil">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Hyperlink>
+            <Label prefHeight="23.0" prefWidth="16.0" text="-&gt;">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Hyperlink text="Sélection">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Hyperlink>
+            <Label prefHeight="23.0" prefWidth="16.0" text="-&gt;">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </Label>
+            <Hyperlink layoutX="107.0" layoutY="10.0" text="Annonce">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Hyperlink>
+            <Label layoutX="164.0" layoutY="10.0" prefHeight="23.0" prefWidth="16.0" text="-&gt;" />
+            <Hyperlink layoutX="185.0" layoutY="10.0" text="Inscription" />
+            <Label layoutX="250.0" layoutY="10.0" prefHeight="23.0" prefWidth="16.0" text="-&gt;" />
+            <Hyperlink layoutX="266.0" layoutY="10.0" text="Paiement" />
+         </children>
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin></HBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="600.0" text="- Lorem ipsum dolor sit amet, consectetur adipiscing elit." wrapText="true">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding></Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="102.0" prefWidth="600.0" text="- Pellentesque commodo quam faucibus, iaculis orci ut, maximus felis." wrapText="true">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="110.0" prefWidth="600.0" text="- Suspendisse potenti." wrapText="true">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="90.0">
+               <children>
+                  <Label text="Total à régler:">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="100.0">
+                     <children>
+                        <Label text="XXX">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="€">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </VBox.margin>
+            </HBox>
+            <Button mnemonicParsing="false" prefWidth="75.0" text="Payer" />
+         </children>
+      </VBox>
+   </children>
+</VBox>
