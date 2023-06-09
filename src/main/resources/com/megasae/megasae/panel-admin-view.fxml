@@ -5,6 +5,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
+<?xml-stylesheet type="text/css" href="../../../../../../paneladmin.css"?>
 
 <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
     <children>
@@ -34,13 +35,16 @@
          </padding></HBox>
       <HBox alignment="CENTER" prefHeight="268.0" prefWidth="600.0" spacing="50.0">
          <children>
-            <Button mnemonicParsing="false">
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Gérer les sorties">
                <graphic>
-                  <ImageView fitHeight="300.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="180.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/placeholder.jpg" />
+                     </image></ImageView>
                </graphic></Button>
-            <Button mnemonicParsing="false">
+            <Button contentDisplay="CENTER" mnemonicParsing="false" text="Gérer les moniteurs">
                <graphic>
-                  <ImageView fitHeight="300.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="180.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" />
                </graphic></Button>
          </children>
       </HBox>
